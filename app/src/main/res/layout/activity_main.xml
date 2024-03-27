@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/scoreboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background"
+        android:hint="Score :0"
+        android:minHeight="48dp"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/turnsleft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scoreboard"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background"
+        android:minHeight="48dp"
+        android:hint="8"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/textresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/turnsleft"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="265dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:minHeight="48dp"
+        android:background="@drawable/background"
+    android:hint="result"
+    android:textSize="25dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textresult"
+        android:layout_centerInParent="true"
+        android:id="@+id/b1"
+        android:layout_margin="20dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/background"
+        android:text="Rock"
+        android:textColor="@color/black"
+    android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b1"
+        android:id="@+id/b2"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/background"
+        android:text="Paper"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b2"
+        android:id="@+id/b3"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/background"
+        android:text="Scissor"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp" />
+
+
+</RelativeLayout>
